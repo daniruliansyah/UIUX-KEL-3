@@ -1,0 +1,164 @@
+.page {
+    background-color: white;
+    height: 640px;
+    width: 360px;
+    margin: 0 auto; /* Menggunakan margin auto untuk memusatkan .page secara horizontal */
+    /* display: flex; Menggunakan flex container untuk memusatkan secara vertikal */
+    flex-direction: column; /* Mengatur arah flex container menjadi kolom */
+    justify-content: center; /*Memusatkan elemen secara vertikal */
+    align-items: center; 
+    
+}
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    padding: 0px !important;
+}
+
+.navbar li{
+    padding-left: 85px;
+}
+
+.more{
+    justify-content: center;
+    float: left;
+    color: rgb(184, 166, 8);
+    height: 60px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px !important;
+
+    /* justify tengah dari kanan ke kiri
+        align items tengah dari atas ke bawah
+        display flex biar bisa make 2 diatas */
+}
+
+body {
+    background-color: rgb(192, 192, 192);
+}
+
+header {
+    align-self: center;
+    background-color: black;
+    width: 360px;
+    height: 60px;
+    padding: 0;
+}
+
+ 
+
+.judulapps{
+    color: rgb(184, 166, 8);
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family:serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo_navbar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 10px !important;
+}
+
+.video_kuecake{
+    background-color: black;
+    width: 340px;
+    height: 140px;
+    margin-top: 33px;
+    margin-left: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_kuecake .text-video{
+    color: rgb(184, 166, 8);
+}
+
+.judulapps-home{
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    font-family: serif;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.slogan-home{
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.letsbake-home{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 37px;
+    margin-left: 33px;
+    display: flex;
+}
+
+.seemore-home{
+    float: right;
+    font-size: 10px;
+    margin-right: 32px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.daftarresep{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.resepkiri-home{
+    background-color: black;
+    border-radius: 15px;
+    height: 140px;
+    width: 140px;
+    margin-left: 30px;
+    color: rgb(184, 166, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resepkanan-home{
+    float: right;
+    background-color: black;
+    border-radius: 15px;
+    height: 140px;
+    width: 140px;
+    margin-right: 30px;
+    color: rgb(184, 166, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 360px;
+    height: 60px;
+    background-color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(184, 166, 8);
+}
