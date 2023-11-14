@@ -34,6 +34,16 @@
         display flex biar bisa make 2 diatas */
 }
 
+.back{
+    justify-content: center;
+    float: left;
+    color: rgb(184, 166, 8);
+    height: 60px;
+    align-items: center;
+    display: flex;
+    padding-left: 20px !important;
+}
+
 body {
     background-color: rgb(192, 192, 192);
 }
@@ -161,4 +171,52 @@ footer{
     display: flex;
     justify-content: space-between;
     color: rgb(184, 166, 8);
+}
+
+.video-tutor{
+    background-color: rgb(150, 148, 148);
+    height: 204px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-kue-resep{
+    background-color: rgba(150, 148, 148, 0);
+    height: 110px;
+    width: 360px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.link-youtube{
+    font-size: 10px;
+    width: 169px;
+    margin-top: 0px;
+}
+
+.judul-kue-resep{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.field-resep{
+    width: 360px;
+    height: 110px;
+    padding-bottom: 20px;
+}
+
+.button-pesan{
+    background-color: rgb(184, 166, 8);
+    height: 35px;
+    width: 80px;
+    border-radius: 25px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
