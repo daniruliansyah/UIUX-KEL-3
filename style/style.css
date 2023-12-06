@@ -6,7 +6,7 @@
     /* display: flex; Menggunakan flex container untuk memusatkan secara vertikal */
     flex-direction: column; /* Mengatur arah flex container menjadi kolom */
     justify-content: center; /*Memusatkan elemen secara vertikal */
-    align-items: center; 
+    align-items: center;
     
 }
 
@@ -23,7 +23,7 @@
 .more{
     justify-content: center;
     float: left;
-    color: rgb(184, 166, 8);
+    color: rgb(217, 182, 0);
     height: 60px;
     align-items: center;
     display: flex;
@@ -37,7 +37,7 @@
 .back{
     justify-content: center;
     float: left;
-    color: rgb(184, 166, 8);
+    color: rgb(217, 182, 0);
     height: 60px;
     align-items: center;
     display: flex;
@@ -45,7 +45,7 @@
 }
 
 body {
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(230, 230, 230);
 }
 
 header {
@@ -56,10 +56,8 @@ header {
     padding: 0;
 }
 
- 
-
 .judulapps{
-    color: rgb(184, 166, 8);
+    color: rgb(217, 182, 0);
     height: 60px;
     justify-content: center;
     align-items: center;
@@ -68,6 +66,7 @@ header {
     font-style: italic;
     font-size: 20px;
     font-weight: bold;
+    margin: 0px;
 }
 
 .logo_navbar{
@@ -90,7 +89,7 @@ header {
 }
 
 .video_kuecake .text-video{
-    color: rgb(184, 166, 8);
+    color: rgb(217, 182, 0);
 }
 
 .judulapps-home{
@@ -136,16 +135,28 @@ header {
     padding-left: 30px;
 }
 
+.gambarkue-home{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.judulkue-home{
+    color: rgb(217, 182, 0);
+    font-size: 9px;
+    width: 140px;
+}
+
 .resepkiri-home{
     background-color: black;
     border-radius: 15px;
     height: 140px;
     width: 140px;
     margin-left: 30px;
-    color: rgb(184, 166, 8);
+    color: rgb(217, 182, 0);
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .resepkanan-home{
@@ -155,11 +166,11 @@ header {
     height: 140px;
     width: 140px;
     margin-right: 30px;
-    color: rgb(184, 166, 8);
+    color: rgb(217, 182, 0);
     display: flex;
     justify-content: center;
-    align-items: center;
 }
+
 
 footer{
     width: 360px;
@@ -170,7 +181,7 @@ footer{
 .footer{
     display: flex;
     justify-content: space-between;
-    color: rgb(184, 166, 8);
+    color: rgb(217, 182, 0);
 }
 
 .video-tutor{
@@ -211,7 +222,7 @@ footer{
 }
 
 .button-pesan{
-    background-color: rgb(184, 166, 8);
+    background-color: rgb(217, 182, 0);
     height: 35px;
     width: 80px;
     border-radius: 25px;
@@ -219,4 +230,206 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.per-bahan-pesan{
+    height: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.field-alamat{
+    background-color: white;
+    width: 360px;
+    height: 155px;
+}
+
+.field-bahan-checkout{
+    background-color: white;
+    margin-top: 5px;
+    height: 233px;
+    width: 360px;
+}
+
+.field-metode-pembayaran{
+    background-color: white;
+    margin-top: 5px;
+    height: 91px;
+    width: 360px;
+    margin-bottom: 2px;
+    padding-top: 26px;
+}
+.footer-checkout{
+    background-color: rgb(197, 196, 196);
+    height: 60px;
+    width: 360px;
+    padding-top: 11px;
+}
+
+.barang-co{
+    background-color: none;
+    width: 300px;
+    height: 60px;
+    margin-top: 13px;
+    margin-left: 31px;
+}
+
+.total-harga{
+    background-color: rgba(128, 128, 128, 0.253);
+    width: 302px;
+    height: 30px;
+    margin-left: 29px;
+    margin-top: 8px;
+    border-radius: 15px;
+}
+
+.metode-pembayaran{
+    width: 302px;
+    height: 44px;
+    border-radius: 15px;
+    margin-left: 29px;
+    margin-top: 11px;
+    background-color: rgba(128, 128, 128, 0.253);
+    display: flex;
+    align-items: center;
+}
+
+.field-total-pembayaran{
+    background-color: white;
+    width: 360px;
+    height: 53px;
+}
+
+.field-waktu-bayar{
+    background-color: white;
+    width: 360px;
+    height: 55px;
+    margin-top: 2px;
+}
+
+.field-qr{
+    background-color: white;
+    width: 360px;
+    height: 351px;
+    margin-top: 4px;
+    padding-top: 15px;
+}
+
+.field-footer-pembayaran{
+    background-color: white;
+    width: 360px;
+    height: 71px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-unduh-qr{
+    background-color: rgb(217, 182, 0);
+    height: 42px;
+    width: 324px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop-up{
+    width: 300px;
+    height: 283px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(168, 168, 168);
+    border-radius: 10px;
+}
+
+.button-samasama{
+    height: 20px;
+    width: 80px;
+    background-color: rgb(217, 182, 0);
+    border-radius: 15px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-left: 113px;
+}
+
+.searchbar{
+    height: 27px;
+    width: 316px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
+    margin-top: 15px;
+    margin-left: 22px;
+}
+
+.belanja-keranjang{
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    border-radius: 4px;
+    margin-top: 8px;
+    float: right;
+    margin-right: 25px;
+}
+
+.item-keranjang{
+    width: 331px;
+    height: 92px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 13px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 25%);
+}
+
+.button-pesan-keranjang{
+    background-color: rgb(217, 182, 0);
+    height: 35px;
+    width: 80px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-pemesanan{
+    height: 46px;
+    width: 360px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
+}
+
+.item-pemesanan{
+    height: 116px;
+    width: 331px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 13px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 25%);
+    padding-top: 10px;
+}
+
+.field-teks-item-pemesanan{
+    height: 31px;
+    width: 236px;
+    margin-top: 22px;
+    display: flex;
+}
+
+.tampilkan-produk{
+    height: 17px;
+    width: 331px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.10);
 }
